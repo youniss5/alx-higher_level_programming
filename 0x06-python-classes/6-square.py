@@ -33,6 +33,7 @@ class Square:
     def position(self):
         """ set and get the position of the square"""
         return self.__position
+
     @position.setter
     def position(self, value):
         if (not isinstance(value, tuple) or
