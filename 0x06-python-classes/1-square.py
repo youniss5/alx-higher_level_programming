@@ -2,6 +2,7 @@
 """Module of a square"""
 
 
+
 class Square:
     """Square class"""
 
