@@ -9,8 +9,8 @@ class Square:
         """Initializing a square,
 
         Args: 
-            size(int): size of square
-            position(int, int): position of square
+            size: size of square
+            position: position of square
         """
         self.size = size
         self.position = position
@@ -51,7 +51,7 @@ class Square:
         if self.__size == 0:
             print('')
             return
-        
+
         [print('') for x in range(0, self.__position[1])]
         for x in range(0, self.__size):
             [print(" ", end='') for y in range(0, self.__position[0])]
