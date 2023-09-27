@@ -9,8 +9,8 @@ class Square:
         """Initializing a square,
 
         Args: 
-            size: size of square
-            position: position of square
+            size(int): size of square
+            position(int, int): position of square
         """
         self.size = size
         self.position = position
