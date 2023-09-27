@@ -6,7 +6,7 @@ class Square:
     """Square class"""
 
     def __init__(self, size):
-        """init is a constructior.
+        """constructior.
        
 
         Args:
