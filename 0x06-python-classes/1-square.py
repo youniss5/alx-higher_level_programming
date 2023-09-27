@@ -8,7 +8,7 @@ class Square:
 
     def __init__(self, size):
         """Init is a constructior.
-       
+
 
         Args:
             size: the size of a square.
