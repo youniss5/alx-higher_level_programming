@@ -75,8 +75,10 @@ class Rectangle:
             """ Return the bigger rectangle
 
             Args:
-            rect_1: first rectangle
-            rect_2: 2nd rectangle
+                rect_1: first rectangle
+                rect_2: 2nd rectangle
+            Raises:
+                  error if rect_1 or rect_2 are not rectangles
 
             Return:
             larger area rectangle
