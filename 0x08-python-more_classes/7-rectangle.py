@@ -45,17 +45,17 @@ class Rectangle:
 
     def area(self):
         """Get the area of the rectangle"""
-        return self.__height * self.__width
+        return self.width * self.height
 
     def perimeter(self):
         """Return the perimeter of the rectangle"""
-        if not self.__height or not self.__width == 0:
+        if not self.width or not self.height:
             return 0
-        return (self.__height * 2) + (self.__width * 2)
+        return (self.width + self.height) * 2
 
     def __str__(self):
         """Print user friendly representation"""
-        if not self.width or self.height:
+        if not self.width or not self.height:
             return ""
         return ((str(self.print_symbol) * self.width + '\n') *
                 self.height)[:-1]
