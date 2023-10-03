@@ -81,7 +81,7 @@ class Rectangle:
                   error if rect_1 or rect_2 are not rectangles
 
             Return:
-            larger area rectangle
+                  larger area rectangle
             """
             if not isinstance(rect_1, Rectangle):
                 raise TypeError("rect_1 must be an instance of Rectangle")
