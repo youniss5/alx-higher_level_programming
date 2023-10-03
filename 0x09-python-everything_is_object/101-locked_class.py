@@ -5,4 +5,4 @@
 class LockedClass:
     """ class structure"""
 
-    __slots__ = ('first name')
+    __slots__ = ['first_name']
