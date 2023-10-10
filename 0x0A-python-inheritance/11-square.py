@@ -14,6 +14,7 @@ class Square(Rectangle):
     def area(self):
         """ square area method"""
         return self.__size ** 2
+
     def __str__(self):
         """return the string of square"""
         return "[Square] " + str(self.__size) + "/" + str(self.__size)
