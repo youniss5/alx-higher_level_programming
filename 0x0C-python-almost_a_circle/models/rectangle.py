@@ -40,7 +40,7 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        self.validate_int('x', value, False)
+        self.validate_int('x', value)
         self.__x = value
 
 
@@ -51,7 +51,7 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
-        self.validate_int('y', value, False)
+        self.validate_int('y', value)
         self.__y = value
 
     def validate_int(self, name, value, equal=True):
