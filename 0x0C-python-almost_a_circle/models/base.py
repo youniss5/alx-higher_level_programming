@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""base class module"""
+"""Base class module"""
 
 
 class Base:
-    """base class"""
+    """Base class"""
 
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """constructor"""
+        """Constructor"""
         if id is not None:
             self.id = id
         else:
