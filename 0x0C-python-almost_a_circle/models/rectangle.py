@@ -5,6 +5,7 @@ from models.base import Base
 
 class Rectangle(Base):
     """rectangle class"""
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """constructor"""
         super().__init__(id)
@@ -42,7 +43,6 @@ class Rectangle(Base):
     def x(self, value):
         self.validate_int('x', value)
         self.__x = value
-
 
     @property
     def y(self):
