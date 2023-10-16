@@ -3,7 +3,7 @@
 from models.base import Base
 
 
-class Rectangle(base):
+class Rectangle(Base):
     """rectangle class"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """constructor"""
@@ -51,7 +51,7 @@ class Rectangle(base):
 
     def validate_int(self, name, value, equal=True):
         """validate value method"""
-        if type(value) not int:
+        if type(value) != int:
             raise TypeError("{} must be an integer".format(name))
         if equal and value < 0:
             raise ValueError("{} must be > 0".format(name))
