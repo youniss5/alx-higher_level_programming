@@ -13,7 +13,7 @@ class Rectangle {
       for (let y = 0; y < this.width; y++) {
         k += 'X';
       }
-      console.log(k);
+      console.log(s);
     }
   }
 
