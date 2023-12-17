@@ -11,8 +11,8 @@ if __name__ == "__main__":
     engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
                            .format(sys.argv[1], sys.argv[2], sys.argv[3]))
     Base.metadata.create_all(engine)
-    Sess = sessionmaker(bind=engine)
-    sess = Session()
+    Session = sessionmaker(bind=engine)
+    session = Session()
     instance = sess.query(State).first()
     if instance is None:
         print("Nothing")
