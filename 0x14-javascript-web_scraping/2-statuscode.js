@@ -1,5 +1,4 @@
 #!/usr/bin/node
-/*script that display the status code of a GET request.*/
 const request = require('request');
 const episodeNum = process.argv[2];
 const API_URL = 'https://swapi-api.hbtn.io/api/films/';
